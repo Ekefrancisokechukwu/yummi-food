@@ -6,10 +6,8 @@ import { formatedPrice, getUniqueValues } from "../utils/helpers";
 
 import Bestseller from "./Bestseller";
 import { Link } from "react-router-dom";
-// import { useFilterContext } from "../context/filter_context";
 
 const Filters = () => {
-  // const [toggle, setToggle] = useState(false);
   const {
     updateFilter,
     clearFilters,
